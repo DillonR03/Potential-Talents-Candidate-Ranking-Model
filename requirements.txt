@@ -1,0 +1,47 @@
+# Potential Talents Candidate Ranking Model
+# Install with: pip install -r requirements.txt
+#
+# Versions are left unpinned because the notebooks do not record the exact
+# versions used locally. Pin them (pip freeze) once you have a working environment.
+
+# --- Core data science (PotentialTalentsNotebook.ipynb) ---
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+wordcloud
+nltk
+openpyxl            # read the .xlsx extended dataset
+jupyter
+ipykernel
+
+# --- Word embeddings (GloVe, Word2Vec, FastText via gensim downloader) ---
+gensim
+
+# --- Transformers and sentence embeddings (BERT, all-MiniLM-L6-v2) ---
+torch
+transformers
+sentence-transformers
+
+# --- Vector search / RAG ---
+faiss-cpu           # imported as `faiss`
+chromadb            # optional ChromaDB comparison
+
+# --- LLM scoring ---
+ollama              # Python client for local Llama 3.2 / Qwen 2.5 (the Ollama app must be installed separately)
+groq                # GPT-OSS via the Groq API
+python-dotenv       # loads the Groq API key from a local .env file
+
+# --- Fine-tuning (Fine_Tuning_Colab_Notebook.ipynb) ---
+# Designed for Google Colab (T4 GPU), which installs these itself with:
+#   !pip install -U transformers datasets peft trl accelerate bitsandbytes sentencepiece
+# Only needed locally if you want to re-run the fine-tuning on your own GPU.
+datasets
+peft
+trl
+accelerate
+bitsandbytes
+sentencepiece
+huggingface_hub
+torchao
