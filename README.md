@@ -12,7 +12,7 @@
 
 Recruitment teams spend significant time manually reviewing candidate profiles to decide who is most relevant to a role.
 
-This project develops an **NLP and LLM-based candidate ranking system** that progressively explores different methods for matching candidate job titles against a recruitment search, and finishes with a hybrid ranking model and a FAISS-powered search layer that re-ranks candidates when a recruiter **stars** one.
+This project develops an **NLP and LLM-based candidate ranking system** that progressively explores different methods for matching candidate job titles against a recruitment search, and finishes with a hybrid ranking model and a FAISS-powered search layer that re-ranks candidates when a recruiter **stars** one. This ML project was done as part of my Apziva AI Residency.
 
 Rather than relying on exact keyword matching alone, the system compares:
 
